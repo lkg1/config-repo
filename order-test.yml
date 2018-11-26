@@ -7,7 +7,7 @@ spring:
     password: root
     url: jdbc:mysql://localhost:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
 env:
-  test1
+  test2
 girl:
   name: lkg
-  age: 23
+  age: 22
