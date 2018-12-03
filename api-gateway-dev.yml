@@ -8,10 +8,10 @@ zuul:
       #可以获取cookie
       sensitiveHeaders:
     #简洁写法
-#    product: /myProduct/**
+   #product: /myProduct/**
   #排除某些路由
- ignored-patterns:
-   - /**/product/listForOrder
+  ignored-patterns:
+    - /**/product/listForOrder
 management:
   endpoints:
     web:
